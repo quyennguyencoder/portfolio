@@ -2,10 +2,7 @@ import { motion } from "framer-motion";
 import { personalInfo } from "../constants";
 import {
   FaGraduationCap,
-  FaRocket,
   FaCode,
-  FaServer,
-  FaAws,
 } from "react-icons/fa";
 import { useTheme } from "../context/ThemeContext";
 
@@ -13,12 +10,14 @@ const About = () => {
   const { theme } = useTheme();
   const titleClass = theme === "dark" ? "text-white" : "text-slate-800";
 
+  /*
   const stats = [
     { value: "4+", label: "Production Projects", icon: <FaRocket className="text-orange-500" /> },
     { value: "19+", label: "Microservices Built", icon: <FaServer className="text-orange-500" /> },
     { value: "SAA-C03", label: "AWS Certified Architect", icon: <FaAws className="text-orange-500" /> },
     { value: "3.1", label: "GPA Software Eng.", icon: <FaGraduationCap className="text-orange-500" /> },
   ];
+  */
 
   return (
     <section id="about" className="py-8 sm:py-12 relative flex justify-center overflow-hidden">
