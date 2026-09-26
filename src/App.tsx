@@ -28,7 +28,7 @@ function App() {
           <Navbar />
           <Hero />
           <About />
-          <Certificates />
+          {/* <Certificates /> */}
           <Skills />
           <Work />
           <Contact />

@@ -42,6 +42,7 @@ const About = () => {
         </motion.div>
 
         {/* Stats Row: Crisp & Squared */}
+        {/*
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-4">
           {stats.map((stat, i) => (
             <motion.div
@@ -68,6 +69,7 @@ const About = () => {
             </motion.div>
           ))}
         </div>
+        */}
 
         {/* Details Grid: Balanced & Squared */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 items-stretch">
@@ -123,7 +125,7 @@ const About = () => {
                   </div>
                 </div>
                 <span className="text-[10px] font-semibold px-2.5 py-1 rounded-md bg-slate-800 border border-white/10 text-slate-300 shrink-0">
-                  GPA: 3.1 / 4.0
+                  GPA: 2.9 / 4.0
                 </span>
               </div>
 
@@ -138,7 +140,7 @@ const About = () => {
             <div className="mt-4 pt-3 border-t border-white/5 flex items-center justify-between text-secondary text-xs">
               <span className="font-medium">Major: Software Engineering</span>
               <span className="text-orange-500 font-semibold text-[11px] px-2 py-0.5 rounded bg-orange-500/10 border border-orange-500/20">
-                UTH University
+                UTH
               </span>
             </div>
           </motion.div>

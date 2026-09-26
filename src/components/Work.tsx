@@ -97,36 +97,20 @@ const projectIcons: Record<string, JSX.Element> = {
 
 const projects = [
   {
-    title: "E-Learning Platform (Java Builder)",
-    description: "Full-featured online learning platform with course management, video streaming, payment integration, and real-time notifications. Deployed in production.",
-    tags: ["Spring Boot", "Next.js", "RDS MySQL", "Redis", "WebSocket", "PayOS", "EC2", "S3", "CloudFront"],
-    github: "https://github.com/quyennguyencoder",
-    demo: "https://",
-    image: "🎓",
+    title: "TicketPro — High-Concurrency Flash Sale",
+    description: "Architected a modular monolith applying DDD. Prevented cache breakdown with Redis Distributed Locks and sustained 4,000+ RPS. Guaranteed zero oversold tickets via Redis Lua Scripts and SAGA Pattern.",
+    tags: ["Spring Boot", "MySQL", "Redis", "Kafka", "Docker", "EC2"],
+    github: "https://github.com/quyennguyencoder/ticket-pro",
+    demo: "https://github.com/quyennguyencoder/ticket-pro",
+    image: "🎫",
   },
   {
-    title: "EXAM System",
-    description: "Online examination system for University with exam management, auto-grading, proctoring features, and result analytics. Deployed in production.",
-    tags: ["Spring Boot", "Next.js", "PostgreSQL", "Redis", "WebSocket", "AWS"],
-    github: "https://github.com/quyennguyencoder",
-    demo: "https://",
-    image: "📝",
-  },
-  {
-    title: "Serverless Blog Platform",
-    description: "Modern serverless blog platform on AWS with microservices architecture. Features user auth via Cognito, Markdown support, comments, and email notifications.",
-    tags: ["AWS Lambda", "API Gateway", "S3", "CloudFront", "DynamoDB", "Cognito", "React"],
-    github: "https://github.com/quyennguyencoder/",
-    demo: "https://",
-    image: "📰",
-  },
-  {
-    title: "Rental Platform & Roommate Finder",
-    description: "19 microservices system for room rental and roommate matching. Features AI chatbot, eKYC verification, fraud detection, real-time chat, and recommendation engine.",
-    tags: ["Spring Boot", "Next.js", "gRPC", "Kafka", "Elasticsearch", "Qdrant", "AI", "GKE"],
-    github: "https://github.com/quyennguyencoder/",
-    demo: "https://",
-    image: "🏠",
+    title: "ZChat — Microservices Chat Platform",
+    description: "Scalable distributed system utilizing Spring Cloud. Scaled WebSockets horizontally via Redis Pub/Sub. Integrated MinIO and Kafka to power global full-text search with Elasticsearch 8.",
+    tags: ["Spring Boot", "PostgreSQL", "Redis", "Kafka", "Elasticsearch", "WebSocket", "Docker"],
+    github: "https://github.com/quyennguyencoder/microservice-chat-platform",
+    demo: "https://github.com/quyennguyencoder/microservice-chat-platform",
+    image: "💬",
   },
 ];
 

@@ -1,6 +1,6 @@
 export const navLinks = [
   { id: "about", title: "About" },
-  { id: "certifications", title: "Certifications" },
+  // { id: "certifications", title: "Certifications" },
   { id: "skills", title: "Skills" },
   { id: "work", title: "Work" },
   { id: "contact", title: "Contact" },
@@ -16,9 +16,9 @@ export const personalInfo = {
 };
 
 export const socials = [
-  { name: "Facebook", url: "https://www.facebook.com/", icon: "facebook" },
-  { name: "LinkedIn", url: "https://www.linkedin.com/", icon: "linkedin" },
-  { name: "Instagram", url: "https://instagram.com/", icon: "instagram" },
+  { name: "Facebook", url: "https://www.facebook.com/nguyen.quyen.647275", icon: "facebook" },
+  { name: "LinkedIn", url: "https://www.linkedin.com/in/quyennguyen8805/", icon: "linkedin" },
+  { name: "Instagram", url: "https://www.instagram.com/quyennguyen8805/", icon: "instagram" },
   { name: "Email", url: "mailto:quyennguyen8805@gmail.com", icon: "email" },
   { name: "GitHub", url: "https://github.com/quyennguyencoder/", icon: "github" },
 ];
@@ -108,7 +108,7 @@ export const currentlyLearning = [
 export const technologies = [
   { name: "Java", icon: "java", color: "#ea580c" },
   { name: "Spring Boot", icon: "spring", color: "#22c55e" },
-  { name: ".NET", icon: "dotnet", color: "#7c3aed" },
+  // { name: ".NET", icon: "dotnet", color: "#7c3aed" },
   { name: "AWS", icon: "aws", color: "#f97316" },
   { name: "Docker", icon: "docker", color: "#38bdf8" },
   { name: "Kafka", icon: "kafka", color: "#cbd5e1" },

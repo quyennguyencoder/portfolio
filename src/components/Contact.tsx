@@ -56,9 +56,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    const serviceId = "service_2tyggw9"; 
-    const templateId = "template_rp4axkc"; 
-    const publicKey = "zaxJqvfEmlAbFArdF";
+    const serviceId = "service_9h6jco8"; 
+    const templateId = "template_qia497v"; 
+    const publicKey = "FYXNWr7euD0VKGK9s";
 
     const templateParams = {
       name: form.name,
